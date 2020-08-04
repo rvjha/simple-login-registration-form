@@ -20,7 +20,7 @@ else{
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    <script src="https://www.google.com/recaptcha/api.js?render=secret_site_key"></script>
+    <script src="https://www.google.com/recaptcha/api.js?render=site_key"></script>
     <link rel="stylesheet" href="./css/main.css">
     
   </head>
