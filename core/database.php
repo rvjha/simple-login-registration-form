@@ -2,10 +2,10 @@
     class database{
         
         //! DB Params
-        private $host = 'localhost';
-        private $db_name = 'sec';
-        private $username ='root';
-        private $password = '';
+        private $host = 'localhost';//server 
+        private $db_name = 'db'; //database name
+        private $username ='root';//db admin name 
+        private $password = ''; //db admin password 
         private $conn;
         
         //! DB Connect
