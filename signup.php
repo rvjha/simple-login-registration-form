@@ -64,6 +64,10 @@ else{
             </div> 
             <div class="form-text text-danger" id="rCaptVal"></div>
             <input type="hidden" id="token" name="token">
+            <div class="form-group">  
+              <span class="text-primary mr-5">Already registered</span>
+              <a href="index.php" class="ml-4">Log In</a>            
+            </div>
           </form>
         </div>
         
