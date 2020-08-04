@@ -77,7 +77,7 @@ else{
     //! ============================ google recaptcha3  =========================
     function getRecaptcha(){
       grecaptcha.ready(function() {
-        grecaptcha.execute('secret_site_key', {action: 'homepage'}).then(function(token) {
+        grecaptcha.execute('site_key', {action: 'homepage'}).then(function(token) {
           //  console.log(token);
         document.getElementById("token").value = token;
       });
